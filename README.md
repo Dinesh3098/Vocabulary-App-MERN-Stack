@@ -1,41 +1,38 @@
-## Vocab App
-Vocab App is a mern stack app to improve the vocabulary.
+## Vocabulary App
 
-## Setup
-
-1. Clone the Repository
+### 1. Clone the Repository
 ```
-git clone https://github.com/abhi3315/vocab-mern-stack
+git clone https://github.com/Dinesh3098/Vocabulary-App-MERN-Stack.git
 ```
 
-2. Setting Up GraphQL server
->> Go to server folder and download dependencies
+### 2. Setting Up GraphQL server
+Go to server folder and download dependencies
 ```
-cd server
+cd projbackend
 npm i
 ```
->> Create a .env file inside server folder and provide the key values mentioned below
+Create a .env file inside server folder and provide the key values mentioned below
 ```
-mongodbUri=<YOUR_MONGODB_URI>
-oxfordAppId=<YOUR_OXFORD_APP_ID>
-oxfordAppKey=<YOUR_OXFORD_APP_KEY
+mongodbUri= YOUR_MONGODB_URI
+oxfordAppId= YOUR_OXFORD_APP_ID
+oxfordAppKey= YOUR_OXFORD_APP_KEY
 ```
->> Run the server
+Run the server
 ```
-npm run start
+npm start
 ```
 
-3. Setting Up Client UI
->> Go to client folder and download dependencies
+### 3. Setting Up Client UI
+Go to client folder and download dependencies
 ```
-cd ../client
+cd ../projfrontend
 npm i
 ```
->> Give your server url inside client/src/utils/helper.js
+Give your server url inside client/src/utils/helper.js
 ```
-const serverUrl = '<YOUR_SERVER_URL>'
+const serverUrl = 'YOUR_SERVER_URL'
 ```
->> Run the client server
+Run the client server
 ```
 npm start
 ```
