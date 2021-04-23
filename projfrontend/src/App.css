@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgb(243, 223, 44);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 20px;
+  color: white;
+  height: 7vh;
+}
+.header img{
+  width:200px;
+  height: 70px;
+  margin-left: 50px;
+  margin-top: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 50px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.container .heading {
+  padding: 0 20px;
+  font-weight: normal;
+  height: 4vh;
+}
+
+.word-container {
+  height: 90vh;
+  overflow-y: scroll;
+}
+.header-right{
+  margin-top: 20px;
+  margin-right:80px;
+  
+}
+.header-right-close{
+  margin-top: 20px;
+  margin-right:80px;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  margin-top: 20px;
+  margin-left:50px;
+}
+
+.addBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  color: rgb(12, 6, 6);
+  background: rgb(243, 223, 44);
+  border-radius: 50%;
+  font-weight: bold;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.7);
+}
+.closeBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+.dialogbox{
+  height:800px;
+  width:80%;
+}
+
